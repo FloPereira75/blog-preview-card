@@ -23,8 +23,9 @@ body {
 }
 
 .card {
-    width: 388px;
-    padding: 25px;
+    width: 88%;
+    max-width: 388px;
+    padding: 20px;
     background: var(--color2);
     border-radius: 20px;
     border: 1px solid var(--color4);
@@ -32,7 +33,7 @@ body {
 }
 
 .card_bckg-img {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .card_bckg-img img {
@@ -53,14 +54,14 @@ body {
 
 .date {
     color: var(--color4);
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .title {
     font-size: 1.5rem;
     font-weight: 800;
     color: var(--color4);
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .title:hover {
@@ -71,7 +72,7 @@ body {
 .text {
     color: var(--color3);
     line-height: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .contributor {
@@ -81,7 +82,7 @@ body {
 }
 
 .contributor_pp img {
-    width: 50px;
+    width: 40px;
 }
 
 .contributor_name {
